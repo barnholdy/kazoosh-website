@@ -1,0 +1,11 @@
+{
+  "name": "kazoosh-website",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-sanitize": "~1.2.26",
+    "angular-ui-router": "~0.2.11",
+    "showdown": "~0.3.1"
+  }
+}

@@ -1,0 +1,11 @@
+<h2>Projekt</h2>
+
+<ul>
+	<li ng-repeat="content in contents">
+		<h3><a ui-sref="detail({type: content.type, id: content.id})">{{content.title}}</a></h3>
+		<h4>{{content.date}}</h4>
+		<p>
+			{{content.teaser}}
+		</p>
+	</li>
+</ul>

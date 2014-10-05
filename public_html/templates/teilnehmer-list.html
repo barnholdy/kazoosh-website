@@ -1,0 +1,7 @@
+<h2>Teilnehmer</h2>
+
+<ul>
+	<li ng-repeat="content in contents">
+		<h3><a ui-sref="detail({type: content.type, id: content.id})">{{content.title}}</a></h3>
+	</li>
+</ul>

@@ -1,0 +1,15 @@
+{
+  "name": "kazoosh-website",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "author": "",
+  "dependencies": {
+    "markdown-to-json": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-shell": "^1.1.1"
+  }
+}

@@ -1,0 +1,15 @@
+angular.module('config', [])
+	.constant('CONF', {
+		'name': 'development',
+		'content_folder': '/content/',
+		'templates_folder': '/templates/',
+
+		'error_template': '404.html',
+		'default_list_template': 'default-list.html',
+		'default_detail_template': 'default-detail.html',
+
+		'exlude_from_navigation': ['other'],
+		
+		'markdown_attribute': 'preview',
+		'markdown_to_html_attribute': 'html',
+	});

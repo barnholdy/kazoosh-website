@@ -1,0 +1,12 @@
+<h2>HOME</h2>
+
+<div ng-bind-html="content.html"></div>
+
+<ul>
+	<li ng-repeat="content in featured">
+		<h3><a ui-sref="detail({type: content.type, id: content.id})">{{content.title}}</a></h3>
+		<p>
+			{{content.teaser}}
+		</p>
+	</li>
+</ul>
